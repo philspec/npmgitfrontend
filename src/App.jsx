@@ -14,7 +14,7 @@ function App() {
   
   const handleSearch = async () => {
     setLoading(true)
-    const response = await fetch(`https://registry.npmjs.com/-/v1/search?text=${input}&size=${size}`)
+    const response = await fetch(`https://registry.npmjs.com/-/v1/search?text=${input}&size=${size}&page=2`)
     const data = await response.json()
     setResponse(data)
     setLoading(false)
