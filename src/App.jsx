@@ -37,12 +37,7 @@ function App() {
         <option value="quality">Quality</option>
         <option value="maintenance">Maintenance</option>
       </select>
-      <select value = {size} onChange={handleSize}>
-        <option value="10">10</option>
-        <option value="25">25</option>
-        <option value="50">50</option>
-        <option value="100">100</option>
-      </select>
+      <input type="number" value={size} onChange={handleSize} placeholder="Number of results" />
       <button onClick={handleSearch}>Search</button>
       {loading && <p>Loading...</p>}
       {!loading && response && <p>Response: {JSON.stringify(response)}</p>}
