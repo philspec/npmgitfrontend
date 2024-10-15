@@ -44,7 +44,8 @@ function App() {
         <option value="100">100</option>
       </select>
       <button onClick={handleSearch}>Search</button>
-      <p>{loading ? 'Loading...' : response}</p>
+      {loading && <p>Loading...</p>}
+      {!loading && response && <p>Response: {JSON.stringify(response)}</p>}
     </div>
   )
 }
