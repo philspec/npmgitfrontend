@@ -1,0 +1,3 @@
+request: api.star-history.com/svg?repos=reduxjs/react-redux&type=Date
+
+response is a svg. 

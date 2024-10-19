@@ -1,0 +1,122 @@
+1. search api:
+
+sample request: api.npms.io/v2/search?q=redux&size=2
+
+response: 
+
+{
+  "total": 15716,
+  "results": [
+    {
+      "package": {
+        "name": "redux",
+        "scope": "unscoped",
+        "version": "4.2.0",
+        "description": "Predictable state container for JavaScript apps",
+        "keywords": [
+          "redux",
+          "reducer",
+          "state",
+          "predictable",
+          "functional",
+          "immutable",
+          "hot",
+          "live",
+          "replay",
+          "flux",
+          "elm"
+        ],
+        "date": "2022-04-18T21:55:15.566Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/redux",
+          "homepage": "http://redux.js.org",
+          "repository": "https://github.com/reduxjs/redux",
+          "bugs": "https://github.com/reduxjs/redux/issues"
+        },
+        "publisher": {
+          "username": "acemarke",
+          "email": "mark.erikson@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "gaearon",
+            "email": "dan.abramov@gmail.com"
+          },
+          {
+            "username": "timdorr",
+            "email": "timdorr@timdorr.com"
+          },
+          {
+            "username": "acdlite",
+            "email": "npm@andrewclark.io"
+          },
+          {
+            "username": "acemarke",
+            "email": "mark.erikson@gmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.92852899031724,
+        "detail": {
+          "quality": 0.946392065054361,
+          "popularity": 0.842062943460406,
+          "maintenance": 0.99968383025654
+        }
+      },
+      "searchScore": 100000.914
+    },
+    {
+      "package": {
+        "name": "react-redux",
+        "scope": "unscoped",
+        "version": "8.0.2",
+        "description": "Official React bindings for Redux",
+        "keywords": [
+          "react",
+          "reactjs",
+          "redux"
+        ],
+        "date": "2022-05-22T19:19:53.180Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/react-redux",
+          "homepage": "https://github.com/reduxjs/react-redux",
+          "repository": "https://github.com/reduxjs/react-redux",
+          "bugs": "https://github.com/reduxjs/react-redux/issues"
+        },
+        "author": {
+          "name": "Dan Abramov",
+          "email": "dan.abramov@me.com",
+          "url": "https://github.com/gaearon"
+        },
+        "publisher": {
+          "username": "acemarke",
+          "email": "mark.erikson@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "gaearon",
+            "email": "dan.abramov@gmail.com"
+          },
+          {
+            "username": "timdorr",
+            "email": "timdorr@timdorr.com"
+          },
+          {
+            "username": "acemarke",
+            "email": "mark.erikson@gmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.902786684209113,
+        "detail": {
+          "quality": 0.941799994520023,
+          "popularity": 0.772172105285907,
+          "maintenance": 0.999961282865824
+        }
+      },
+      "searchScore": 58.5208
+    }
+  ]
+}
